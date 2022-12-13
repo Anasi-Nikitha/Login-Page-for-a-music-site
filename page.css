@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: url(abstract-heavy-pink-haze-darkness.jpg);
+    background-size: cover;
+    color: white;
+    width: 100vh;
+    height: 100vh;
+    background-repeat: no-repeat;
+    /* position: absolute; */
+    background-size: 500% 500%;
+    
+}
+
+.first{
+    display: flex;
+    align-items:center ;
+    margin: 10px;
+    padding: 0px;
+    
+}
+.second{
+    margin: 0px;
+    padding: 0px;
+    width: 150px;
+    height: 150px;
+}
+#one{
+    margin: 20px;
+    color: rgb(203, 111, 194);
+    text-shadow: 3px 3px 6px  rgb(114, 90, 138);
+    font-family:cursive;
+
+}
+#heading{
+    font-size:xx-large;
+    padding-left: 30px;
+}
+#three{
+    font-size: medium;
+    background:transparent;
+}
+.fourth{
+    width: 500px;
+    height: 30px;
+    background: transparent;
+    word-spacing: 2px;
+    margin: 30px;
+    border-bottom: 1px solid white;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    font-size: medium;
+    color: aliceblue;
+    outline: none;
+}
+.part{
+    padding-left: 30px;
+    font-size: 15px;
+}
+.part1{
+    padding-left: 30px;
+    font-size: 20px;
+}
+.sixth12{
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    
+}
+.sixth1{
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.sixth2{
+    margin-left: 190px;
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    width: 100px;
+    height: 50px;
+    background: transparent;
+    color: white;
+    border: double white;
+    border-radius: 7px;
+}
+.sixth2:hover{
+    cursor:pointer;
+    
+}
+input::placeholder{
+    color: white;
+}
+.images{
+    background: url(music1.jpg);
+    background-size: 100% 100%;
+    width: 600px;
+    background-repeat: no-repeat;
+    height: 400px;
+    position: relative;
+    left: 750px;
+    top: -750px;
+    /* border: 1px solid rgba(26, 28, 87, 0.536); */
+    box-shadow: 5px 5px 5px 5px rgb(59, 32, 88);
+animation: changeimage 10s linear infinite;
+}
+@keyframes changeimage{
+    0%{
+         background-image:url(music1.jpg);
+      }
+    25%{
+        background-image: url(music2.jpg);
+    }  
+    50%{
+        background-image:url(music3.jpg) ;
+    }
+    75%{
+        background-image: url(music4.jpg);
+    }
+    100%{
+        background-image: url(music1.jpg);
+    }
+}
+.contact{
+    position: relative;
+    top: -600px;
+    left: 750px;
+    font-size: large;
+}
+
+
